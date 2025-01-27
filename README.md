@@ -23,25 +23,25 @@ Este projeto é uma aplicação web para criar, visualizar e gerenciar pensament
 ## Estrutura do Projeto
 
 ```sh
-TOUGHTS/
+THOUGHTS/
 ├── controllers/
-│   ├── ToughtController.js
+│   ├── ThoughtController.js
 │   └── UserController.js
 ├── db/
 │   └── conn.js
 ├── models/
-│   ├── Tought.js
+│   ├── Thought.js
 │   └── User.js
 ├── public/
 │   └── css/
 │       └── styles.css
 ├── routes/
 │   ├── authRoutes.js
-│   └── toughtsRoutes.js
+│   └── thoughtsRoutes.js
 ├── views/
 │   ├── layouts/
 │   │   └── main.handlebars
-│   ├── toughts/
+│   ├── thoughts/
 │   │   ├── add.handlebars
 │   │   ├── dashboard.handlebars
 │   │   ├── edit.handlebars
