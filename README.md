@@ -6,7 +6,7 @@ Este projeto é uma aplicação web para criar, visualizar e gerenciar pensament
 
 - Criar novos pensamentos
 - Visualizar pensamentos
-- Exibir data e hora de criação dos pensamentos no formato "Segunda, 27/01/2025 às 12:30"
+- Exibir data e hora de criação dos pensamentos no formato "Dia da Semana, dia, de mês. ano, às h:m"
 - Editar e remover pensamentos
 - Autenticação de usuários
 
@@ -22,6 +22,7 @@ Este projeto é uma aplicação web para criar, visualizar e gerenciar pensament
 
 ## Estrutura do Projeto
 
+```sh
 TOUGHTS/
 ├── controllers/
 │   ├── ToughtController.js
@@ -52,13 +53,15 @@ TOUGHTS/
 ├── index.js
 └── package.json
 
+```
+
 ## Configuração do Projeto
 
 ### 1. Clonar o Repositório
 
 ```sh
-git clone https://github.com/erkzz1/TOUGHTS.git
-cd 11_TOUGHTS
+git clone https://github.com/erkzz1/THOUGHTS.git
+cd THOUGHTS
 ```
 ### 2. Instalar Dependências
 
